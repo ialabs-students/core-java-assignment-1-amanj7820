@@ -74,7 +74,7 @@ public class Product {
 
         ProductService productService = new ProductService();
 
-        String prodName = productService.findNameByCode(513);
+        String prodName = productService.findNameByCode(105);
         System.out.println(prodName);
 
         Product product_obj = productService.findMaxPriceProduct("mobile");
